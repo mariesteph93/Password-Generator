@@ -1,0 +1,35 @@
+/*Base*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+/*Password Wrap*/
+.password-wrap {
+  padding: 15px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: lightpink;
+}
+.password-wrap input {
+  width: 100%;
+  padding: 12px 0px 12px 5px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 10px 0px;
+}
+.password-wrap button {
+  background-color: palevioletred;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
